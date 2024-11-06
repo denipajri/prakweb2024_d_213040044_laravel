@@ -11,7 +11,9 @@
 
 <body>
     <a href="/">Home</a>
+    <a href="/blog">Blog</a>
     <a href="/about">About</a>
+    <a href="/contact">Contact</a>
     <h1>Halaman About</h1>
     <h3>Owner: {{ $nama }}</h3>
     <img src="img/igris.jpg" alt="Igris" width="200">
