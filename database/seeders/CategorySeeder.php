@@ -14,30 +14,35 @@ class CategorySeeder extends Seeder
     public function run(): void
     {
         // Category::factory(3)->create();
-        
+
         Category::create([
             'name' => 'Web Design',
-            'slug' => 'web-design'
+            'slug' => 'web-design',
+            'color' => 'red'
         ]);
 
         Category::create([
             'name' => 'UI UX',
-            'slug' => 'ui-ux'
+            'slug' => 'ui-ux',
+            'color' => 'orange'
         ]);
 
         Category::create([
             'name' => 'Mechine Learning',
-            'slug' => 'mechine-learning'
+            'slug' => 'mechine-learning',
+            'color' => 'yellow'
         ]);
 
         Category::create([
             'name' => 'Data Structure',
-            'slug' => 'data-structure'
+            'slug' => 'data-structure',
+            'color' => 'green'
         ]);
 
         Category::create([
             'name' => 'Cyber Security',
-            'slug' => 'cyber-security'
+            'slug' => 'cyber-security',
+            'color' => 'blue'
         ]);
     }
 }
